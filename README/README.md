@@ -7,13 +7,13 @@
 ssh-keygen
 cd ~/.ssh
 ```
-картинка 51
+![Image alt](лаб51.png)
 Теперь по заданию лабораторной работы я создаю репозиторий `git-ptactice`, затем в терминале клонирую репозиторий и перехожу в него:
 ```
 git clone git@github.com:cs-itmo-2023/git-ptactice.git
 cd git-ptactice
 ```
-картинка 52
+![Image alt](лаб52.png)
 Теперь создадаю текстовый файл `example.txt`
 ```
 touch example.txt
@@ -23,10 +23,10 @@ touch example.txt
 cat >> example.txt
 ```
 Втсавляю стишок и завершаю редактирование файла с помощью сочетания клавиш `ctrl + D`
-картинка 53
-картинка 54
+![Image alt](лаб53.png)
+![Image alt](лаб53.png)
 Я столкнулась с проблемой идентификации, на первых двух строчках картинки представлено решение:
-картинка 55
+![Image alt](лаб55.png)
 Отправить изменения на гитхаб с предложенным коммитом "File added example.txt" можно с помощью следующих команд:
 ```
 git add example.txt
@@ -57,10 +57,10 @@ git checkout main
 git merge feature-branch
 git push origin main
 ```
-картинка 56
-картинка 57
+![Image alt](лаб56.png)
+![Image alt](лаб57.png)
 Вот, что получилось в репозитории на гите:
-картинка 58
+![Image alt](лаб58.png)
 ## Здадание первое - работа с ветками
 Создадаю новый файл, с которым и буду работать дальше:
 ```
@@ -85,8 +85,8 @@ git add contents.txt
 git commit -m "Добавлена глава 3: Вход в систему"
 git push origin feature-login
 ```
-картинка 59
-картинка 510
+![Image alt](лаб59.png)
+![Image alt](лаб510.png)
 ## Здадание второе - работа с удалённым репо
 Переключаюсь на основную ветку:
 ```
@@ -103,8 +103,8 @@ git add contents.txt
 git commit -m "Изменено название книги и введение"
 git push origin main
 ```
-картинка 511
-картинка 512
+![Image alt](лаб511.png)
+![Image alt](лаб512.png)
 ## Здадание третье - моделирование конфликта
 Возвращаюсь в ветку `feature-login`:
 ```
@@ -121,7 +121,7 @@ git add contents.txt
 git commit -m "Добавлен раздел о магии конфликтов"
 git push origin feature-login
 ```
-картинка 513
+![Image alt](лаб513.png)
 ## Здадание четвёртое - разрешение конфликта
 Возваращюсь в основную ветку и пробую слить изменения:
 ```
@@ -144,10 +144,12 @@ git add contents.txt
 git commit -m "Resolved conflict in chapter 2"
 git push origin main
 ```
-картинка 514
-картинка 515
-картинка 516
-картинка 517
-картинка 518 - 20
+![Image alt](лаб514.png)
+![Image alt](лаб515.png)
+![Image alt](лаб516.png)
+![Image alt](лаб517.png)
+![Image alt](лаб518.png)
+![Image alt](лаб519.png)
+![Image alt](лаб520.png)
 ## Здадание пятое - автоматизация проверки формата файлов при коммите
 ## Здадание шестое - использование гитфлоу в проекте 
